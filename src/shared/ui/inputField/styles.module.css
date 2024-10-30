@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 14vw;
+}
+
+.input {
+    background: none;
+    box-shadow: none;
+    outline: none;
+    border: solid 1px var(--accent-color-main);
+    border-radius: 15px;
+    color: var(--text-color-regular);
+    padding: 15px;
+    height: 6vh;
+}
+
+
+.textArea {
+    background: none;
+    box-shadow: none;
+    outline: none;
+    border: solid 1px var(--accent-color-main);
+    border-radius: 15px;
+    color: var(--text-color-regular);
+    padding: 45px;
+    height: 6vh;
+}
+

@@ -1,0 +1,28 @@
+
+:root {
+    --accent-color-main: #8291FF;
+    --text-color-dull: #6C6C6C;
+    --text-color-regular: #C6C6C6;
+    --text-color-bright: #FFFFFF;
+    --font-size-regular: 24px;
+    --font-size-regular-important: 32px;
+    --font-size-small: 24px;
+    --font-weight-bold: 700;
+
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  /* scrollbar fader */
+  ::-webkit-scrollbar-thumb {
+    background-color: white; 
+    border-radius: 4px; /
+  }
+  
+  /* scrollbar background */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }

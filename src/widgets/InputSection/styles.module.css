@@ -1,0 +1,34 @@
+.input {
+}
+
+.verticalInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.horizontalInputs {
+    display: flex;
+    flex-direction: row;
+    gap: 13vw;
+}
+
+.inputBig {
+    /* padding: 0vh; */
+    height: 50vh;
+}
+
+.wrapperInputBig {
+    width: 35vw;
+    height: 50vh;
+}
+
+.timerAndSubmit {
+    display: flex;
+    flex-direction: column;
+}
+
+.timers {
+    flex-grow: 1;
+}
+
