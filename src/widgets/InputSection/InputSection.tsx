@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import InputField from '../../shared/ui/inputField/InputField'
 import styles from "./styles.module.css";
 import Button from '../../shared/ui/button/Button';

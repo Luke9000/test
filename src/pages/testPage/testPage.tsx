@@ -6,11 +6,8 @@ import InputSection from "../../widgets/InputSection/InputSection";
 import ExampleSection from "../../widgets/ExampleSection/ExampleSection";
 
 
-interface Props {
-    test?: string;
-  }
 
-const testPage = ({ test = "default value"}: Props) => {
+const testPage = () => {
 
     const randomText = selectRandomText();
 
