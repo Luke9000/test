@@ -10,21 +10,21 @@ interface BaseProps {
     as?: "input" | "textarea"; // Проп для выбора элемента
 }
 
-// Пропсы для <input>
+
 interface InputProps extends BaseProps, InputHTMLAttributes<HTMLInputElement> {
     as?: "input";
 }
 
-// Пропсы для <textarea>
+
 interface TextareaProps extends BaseProps, TextareaHTMLAttributes<HTMLTextAreaElement> {
     as: "textarea";
 }
 
-// Объединение типов для компонента
+
 type CombinedProps = InputProps | TextareaProps;
 
 const InputField: FC<CombinedProps> = ({
-    as = "input", // По умолчанию "input"
+    as = "input",
     label,
     wrapperClassName,
     inputClassName,

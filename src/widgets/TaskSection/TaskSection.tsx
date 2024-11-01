@@ -1,3 +1,4 @@
+import { clsx } from "clsx";
 import styles from "./styles.module.css";
 
 interface Props {
@@ -12,11 +13,11 @@ interface Props {
       <div className={styles.taskSection}>
         <div className={styles.titleWithText}>
           <h3>Обычная версия задания</h3>
-          <p className={styles.task}>{taskText}</p>
+          <p className={clsx(styles.task, styles.disableCopy)}>{taskText}</p>
         </div>
         <div className={styles.titleWithText}>
           <h3>Усложненная версия задания</h3>
-          <div className={styles.extraTask}>
+          <div className={clsx(styles.extraTask, styles.disableCopy)}>
             <p className={styles.extraTask}>{extraTask1}</p>
             <p className={styles.extraTask}>{extraTask2}</p>
           </div>
